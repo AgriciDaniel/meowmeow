@@ -1,91 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="280" role="img" aria-label="a cream tabby cat sleeping in loaf position, dreaming of a fish, with a tiny mouse tiptoeing past its twitching ear">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" width="220" role="img" aria-label="a cream tabby cat in loaf position, breathing slowly, tail wrapped around its body, occasionally twitching an ear, eyes softly closed">
 
-  <circle cx="92" cy="72" r="3" fill="#fff" stroke="#bbb" stroke-width="1" opacity="0.75"/>
-  <circle cx="104" cy="58" r="5" fill="#fff" stroke="#bbb" stroke-width="1" opacity="0.8"/>
-  <ellipse cx="155" cy="40" rx="55" ry="18" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+  <ellipse cx="110" cy="148" rx="72" ry="5" fill="#1a1a1a" opacity="0.14"/>
 
-  <g>
-    <animateMotion dur="5s" repeatCount="indefinite"
-                   path="M 115 40 Q 155 30 195 40 Q 155 50 115 40"/>
-    <g>
-      <ellipse cx="0" cy="0" rx="9" ry="4.5" fill="#5ab5d4"/>
-      <polygon points="-9,0 -15,-5 -15,5" fill="#5ab5d4">
-        <animateTransform attributeName="transform" type="skewX" values="0;12;0;-12;0" dur="0.6s" repeatCount="indefinite"/>
-      </polygon>
-      <circle cx="5" cy="-1" r="1.2" fill="#fff"/>
-      <circle cx="5" cy="-1" r="0.5" fill="#000"/>
-    </g>
-  </g>
+  <path d="M 40 142 Q 34 98 58 80 Q 82 68 110 68 Q 140 68 168 80 Q 192 98 186 142 Z" fill="#ecd4a8">
+    <animate attributeName="d"
+             values="M 40 142 Q 34 98 58 80 Q 82 68 110 68 Q 140 68 168 80 Q 192 98 186 142 Z;
+                     M 40 142 Q 34 95 58 77 Q 82 65 110 65 Q 140 65 168 77 Q 192 95 186 142 Z;
+                     M 40 142 Q 34 98 58 80 Q 82 68 110 68 Q 140 68 168 80 Q 192 98 186 142 Z"
+             calcMode="spline"
+             keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+             keyTimes="0;0.5;1" dur="4.2s" repeatCount="indefinite"/>
+  </path>
 
-  <g>
-    <path d="M 80 145 Q 70 110 90 100 Q 105 90 140 92 Q 180 92 200 105 Q 215 115 210 145 Z" fill="#e8d4a8">
-      <animate attributeName="d"
-               values="M 80 145 Q 70 110 90 100 Q 105 90 140 92 Q 180 92 200 105 Q 215 115 210 145 Z;
-                       M 80 145 Q 70 108 90 98 Q 105 88 140 90 Q 180 90 200 103 Q 215 113 210 145 Z;
-                       M 80 145 Q 70 110 90 100 Q 105 90 140 92 Q 180 92 200 105 Q 215 115 210 145 Z"
-               dur="3.8s" repeatCount="indefinite"/>
-    </path>
+  <ellipse cx="110" cy="140" rx="60" ry="10" fill="#d4b88c" opacity="0.7"/>
 
-    <ellipse cx="145" cy="145" rx="65" ry="8" fill="#d4b88c"/>
+  <path d="M 58 98 Q 64 118 62 140" stroke="#bc9a6a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 88 92 Q 94 115 92 142" stroke="#bc9a6a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 130 92 Q 126 115 128 142" stroke="#bc9a6a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 162 98 Q 156 118 158 140" stroke="#bc9a6a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
 
-    <circle cx="88" cy="115" r="22" fill="#e8d4a8">
-      <animate attributeName="r" values="22;22.8;22" dur="3.8s" repeatCount="indefinite"/>
-    </circle>
-
-    <polygon points="72,100 68,80 83,94" fill="#e8d4a8">
-      <animateTransform attributeName="transform" type="rotate"
-                        values="0 72 100; 0 72 100; 0 72 100; -18 72 100; 4 72 100; -18 72 100; 0 72 100; 0 72 100"
-                        keyTimes="0;0.35;0.42;0.48;0.53;0.58;0.65;1"
-                        dur="10s" repeatCount="indefinite"/>
-    </polygon>
-    <polygon points="100,94 107,74 95,88" fill="#e8d4a8"/>
-    <polygon points="74,97 73,88 80,93" fill="#d4a5a5"/>
-
-    <path d="M 79 113 Q 83 115 87 113" stroke="#8b6a3c" stroke-width="1.5" fill="none"/>
-    <path d="M 68 113 Q 70 114 72 113" stroke="#8b6a3c" stroke-width="1"/>
-    <circle cx="67" cy="119" r="1.6" fill="#d4a5a5"/>
-    <line x1="55" y1="120" x2="69" y2="119" stroke="#8b6a3c" stroke-width="0.6"/>
-    <line x1="55" y1="125" x2="69" y2="122" stroke="#8b6a3c" stroke-width="0.6"/>
-
-    <path d="M 108 108 Q 112 120 108 130" stroke="#c4a478" stroke-width="1.8" fill="none"/>
-    <path d="M 140 102 Q 145 118 140 135" stroke="#c4a478" stroke-width="1.8" fill="none"/>
-    <path d="M 172 108 Q 177 122 172 138" stroke="#c4a478" stroke-width="1.8" fill="none"/>
-    <path d="M 195 118 Q 198 128 195 140" stroke="#c4a478" stroke-width="1.8" fill="none"/>
-  </g>
+  <path d="M 178 120 Q 200 112 204 90 Q 204 72 192 68 Q 184 72 188 84 Q 190 96 180 112 Z"
+        fill="#ecd4a8">
+    <animateTransform attributeName="transform" type="rotate"
+                      values="0 192 100; 3 192 100; 0 192 100"
+                      calcMode="spline"
+                      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+                      keyTimes="0;0.5;1" dur="4.2s" repeatCount="indefinite"/>
+  </path>
 
   <g>
     <animateTransform attributeName="transform" type="translate"
-                      values="340 0; -80 0" dur="10s" repeatCount="indefinite"/>
-    <g>
-      <animateTransform attributeName="transform" type="translate"
-                        values="0 0; 0 -1.5; 0 0" dur="0.3s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="172" rx="11" ry="6" fill="#aaa"/>
-      <circle cx="-11" cy="170" r="5.5" fill="#aaa"/>
-      <circle cx="-14" cy="165" r="3" fill="#aaa"/>
-      <circle cx="-14" cy="165" r="1.5" fill="#d4a5a5"/>
-      <circle cx="-14" cy="170" r="0.7" fill="#000"/>
-      <circle cx="-16" cy="172" r="0.6" fill="#333"/>
-      <line x1="-16" y1="172" x2="-20" y2="170" stroke="#555" stroke-width="0.3"/>
-      <line x1="-16" y1="172" x2="-20" y2="174" stroke="#555" stroke-width="0.3"/>
-      <path d="M 9 172 Q 20 168 24 162 Q 25 158 22 156" stroke="#aaa" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-      <ellipse cx="-5" cy="178" rx="2" ry="1" fill="#888"/>
-      <ellipse cx="4" cy="178" rx="2" ry="1" fill="#888"/>
-    </g>
+                      values="0 0; 0 -1; 0 0"
+                      calcMode="spline"
+                      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+                      keyTimes="0;0.5;1" dur="4.2s" repeatCount="indefinite"/>
+
+    <path d="M 50 68 Q 50 46 36 32 Q 28 32 30 44 Q 34 60 43 72 Z" fill="#ecd4a8">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="0 43 62; 0 43 62; 0 43 62; -18 43 62; 3 43 62; -18 43 62; 0 43 62; 0 43 62"
+                        calcMode="spline"
+                        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1; 0.12 0 0.39 0; 0.61 1 0.88 1; 0.42 0 0.58 1"
+                        keyTimes="0;0.4;0.5;0.55;0.6;0.65;0.7;1"
+                        dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 78 66 Q 80 46 92 32 Q 100 32 98 44 Q 94 60 86 72 Z" fill="#ecd4a8"/>
+    <path d="M 36 42 Q 34 34 40 38 Q 44 48 47 60 Q 40 56 36 42 Z" fill="#ff8da8" opacity="0.6"/>
+
+    <circle cx="62" cy="72" r="28" fill="#ecd4a8"/>
+    <ellipse cx="62" cy="84" rx="18" ry="11" fill="#f5e3bd"/>
+
+    <path d="M 48 62 Q 52 72 48 82" stroke="#bc9a6a" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M 76 62 Q 72 72 76 82" stroke="#bc9a6a" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+    <path d="M 52 72 Q 55 74 58 72" stroke="#6b4a28" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M 66 72 Q 69 74 72 72" stroke="#6b4a28" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+
+    <path d="M 58 84 L 66 84 L 62 88 Z" fill="#d4907a"/>
+    <path d="M 62 88 Q 58 92 54 90" stroke="#6b4a28" stroke-width="1" fill="none" stroke-linecap="round"/>
+    <path d="M 62 88 Q 66 92 70 90" stroke="#6b4a28" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+    <line x1="34" y1="80" x2="52" y2="82" stroke="#6b4a28" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="34" y1="86" x2="52" y2="85" stroke="#6b4a28" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="72" y1="82" x2="90" y2="80" stroke="#6b4a28" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="72" y1="85" x2="90" y2="86" stroke="#6b4a28" stroke-width="0.8" stroke-linecap="round"/>
   </g>
 
-  <g font-family="Georgia, serif" font-weight="bold" fill="#888">
-    <text x="108" y="88" font-size="14">z
-      <animate attributeName="y" values="88;50" dur="3.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;0" dur="3.5s" repeatCount="indefinite"/>
+  <g font-family="Georgia, serif" font-weight="bold" fill="#8a7454">
+    <text x="100" y="60" font-size="12" opacity="0">z
+      <animate attributeName="y" values="60;25"
+               calcMode="spline" keySplines="0.42 0 0.58 1"
+               keyTimes="0;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0"
+               calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+               keyTimes="0;0.4;1" dur="4s" repeatCount="indefinite"/>
     </text>
-    <text x="126" y="72" font-size="18">Z
-      <animate attributeName="y" values="72;30" dur="3.5s" begin="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;0" dur="3.5s" begin="1.2s" repeatCount="indefinite"/>
+    <text x="118" y="48" font-size="16" opacity="0">Z
+      <animate attributeName="y" values="48;10"
+               calcMode="spline" keySplines="0.42 0 0.58 1"
+               keyTimes="0;1" dur="4s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0"
+               calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+               keyTimes="0;0.4;1" dur="4s" begin="1.3s" repeatCount="indefinite"/>
     </text>
-    <text x="98" y="62" font-size="22">Z
-      <animate attributeName="y" values="62;22" dur="3.5s" begin="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;0" dur="3.5s" begin="2.4s" repeatCount="indefinite"/>
+    <text x="92" y="40" font-size="20" opacity="0">Z
+      <animate attributeName="y" values="40;0"
+               calcMode="spline" keySplines="0.42 0 0.58 1"
+               keyTimes="0;1" dur="4s" begin="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0"
+               calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+               keyTimes="0;0.4;1" dur="4s" begin="2.6s" repeatCount="indefinite"/>
     </text>
   </g>
 </svg>

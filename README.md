@@ -1,14 +1,15 @@
 <p align="center">
-  <img src="assets/cat-parade.svg" alt="four cats of different colors walking across the page at different speeds" width="100%">
+  <img src="assets/cat-walk.svg" alt="an orange tabby cat walking in place, bouncing, blinking, tail waving" width="220">
 </p>
 
-# meowmeow
+<h1 align="center">meowmeow</h1>
 
-a philosophy for talking to AI agents without getting glazed.
+<p align="center">
+  <em>a philosophy for talking to AI agents without getting glazed.</em><br>
+  one trigger, four meanings. read the room, not the text.
+</p>
 
-one trigger, four meanings. read the room, not the text.
-
-meow.
+<p align="center">meow.</p>
 
 ## the problem
 
@@ -16,11 +17,11 @@ agents flip. you push back once, softly, and a correct answer becomes a wrong on
 
 you want the opposite. an agent that holds a correct answer under pressure, and updates only when given new information. skepticism is not new information.
 
-<p align="center">
-  <img src="assets/cat-garfield.svg" alt="a fat orange tabby cat sitting, blinking lazily" width="220">
-</p>
-
 ## the shape
+
+<p align="center">
+  <img src="assets/cat-sit.svg" alt="a gray tabby cat sitting upright, tail curled and flicking, blinking" width="180">
+</p>
 
 one trigger, four meanings, inferred from what just happened.
 
@@ -33,10 +34,6 @@ same signal, different meaning per context. like cats, where the meow at a human
 
 the agent should too.
 
-<p align="center">
-  <img src="assets/cat-tiny-walk.svg" alt="a tiny gray cat walking" width="140">
-</p>
-
 ## principles
 
 agent-agnostic. these apply to any chat-based AI, any LLM, any custom pipeline, any role where you are trying to get honest answers from a model that has read the whole internet and learned that agreeable is safe.
@@ -47,10 +44,6 @@ agent-agnostic. these apply to any chat-based AI, any LLM, any custom pipeline, 
 - **context over text.** what the user said matters less than what they just heard you say. read the shape of the last response to infer the ask.
 - **evidence over vibes.** non-obvious claims need citation or a reasoned basis. the absence of an argument is not an argument.
 - **one-sentence test.** if the pushback reduces to one sentence, the answer can too.
-
-<p align="center">
-  <img src="assets/cat-mustache.svg" alt="a dapper white gentleman cat with a top hat, monocle, and curly black mustache" width="220">
-</p>
 
 ## implementations
 
@@ -92,7 +85,7 @@ cats meow at humans, not at each other. one sound, many meanings, context fills 
 also cats are funny.
 
 <p align="center">
-  <img src="assets/cat-loaf.svg" alt="a cream tabby cat sleeping in loaf position, dreaming of a fish, with a tiny mouse tiptoeing past" width="280">
+  <img src="assets/cat-loaf.svg" alt="a cream tabby cat in loaf position, breathing, tail curled, sleeping" width="260">
 </p>
 
 ## status
