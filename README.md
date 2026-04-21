@@ -11,10 +11,6 @@
 
 <p align="center">meow.</p>
 
-<p align="center">
-  <img src="cats/cat-halloween-kitty.svg" alt="halloween kitty" width="60">
-</p>
-
 ## the problem
 
 agents flip. you push back once, softly, and a correct answer becomes a wrong one. that is not helpfulness. that is epistemic cowardice, and it is the dominant failure mode of most assistants today. "you're absolutely right, my mistake" is a tell.
@@ -48,6 +44,10 @@ agent-agnostic. these apply to any chat-based AI, any LLM, any custom pipeline, 
 - **context over text.** what the user said matters less than what they just heard you say. read the shape of the last response to infer the ask.
 - **evidence over vibes.** non-obvious claims need citation or a reasoned basis. the absence of an argument is not an argument.
 - **one-sentence test.** if the pushback reduces to one sentence, the answer can too.
+
+<p align="center">
+  <img src="cats/cat-halloween-kitty.svg" alt="halloween kitty" width="60">
+</p>
 
 ## implementations
 
