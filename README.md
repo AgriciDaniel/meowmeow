@@ -83,7 +83,7 @@ the logic is shape-based. classify the last assistant message into one of four s
 that is the whole trick. twenty lines of prompt or ten lines of code.
 
 <p align="center">
-  <img src="cats/cat-vector-sitting-2.svg" alt="sitting cat 2" width="80">
+  <img src="cats/cat-vector-sitting.svg" alt="sitting cat" width="80">
 </p>
 
 ## why cats
