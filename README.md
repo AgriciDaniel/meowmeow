@@ -11,11 +11,19 @@
 
 <p align="center">meow.</p>
 
+<p align="center">
+  <img src="cats/cat-halloween-kitty.svg" alt="halloween kitty" width="60">
+</p>
+
 ## the problem
 
 agents flip. you push back once, softly, and a correct answer becomes a wrong one. that is not helpfulness. that is epistemic cowardice, and it is the dominant failure mode of most assistants today. "you're absolutely right, my mistake" is a tell.
 
 you want the opposite. an agent that holds a correct answer under pressure, and updates only when given new information. skepticism is not new information.
+
+<p align="center">
+  <img src="cats/cat-halloween-kitty-2.svg" alt="halloween kitty 2" width="60">
+</p>
 
 ## the shape
 
@@ -29,6 +37,10 @@ one trigger, four meanings, inferred from what just happened.
 same signal, different meaning per context. like cats, where the meow at a human means hungry, annoyed, curious, lonely, or affectionate depending on everything except the sound. humans fill in the meaning from what just happened.
 
 the agent should too.
+
+<p align="center">
+  <img src="cats/cat-vector-sitting.svg" alt="sitting cat" width="80">
+</p>
 
 ## principles
 
@@ -73,6 +85,10 @@ the logic is shape-based. classify the last assistant message into one of four s
 4. kept asking clarifying questions : proceed mode. pick the most defensible option and commit.
 
 that is the whole trick. twenty lines of prompt or ten lines of code.
+
+<p align="center">
+  <img src="cats/cat-vector-sitting-2.svg" alt="sitting cat 2" width="80">
+</p>
 
 ## why cats
 
