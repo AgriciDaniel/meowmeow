@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="assets/cat-walk.svg" alt="an orange tabby cat walking in place, bouncing, blinking, tail waving" width="220">
+  <img src="assets/cat-orange.svg" alt="a pixel-art orange tabby cat face with blinking green eyes" width="140">
+  <img src="assets/cat-gray.svg" alt="a pixel-art gray tabby cat face with blinking blue eyes" width="140">
+  <img src="assets/cat-cream.svg" alt="a pixel-art cream cat face with blinking amber eyes" width="140">
 </p>
 
 <h1 align="center">meowmeow</h1>
@@ -18,10 +20,6 @@ agents flip. you push back once, softly, and a correct answer becomes a wrong on
 you want the opposite. an agent that holds a correct answer under pressure, and updates only when given new information. skepticism is not new information.
 
 ## the shape
-
-<p align="center">
-  <img src="assets/cat-sit.svg" alt="a gray tabby cat sitting upright, tail curled and flicking, blinking" width="180">
-</p>
 
 one trigger, four meanings, inferred from what just happened.
 
@@ -84,15 +82,15 @@ cats meow at humans, not at each other. one sound, many meanings, context fills 
 
 also cats are funny.
 
-<p align="center">
-  <img src="assets/cat-loaf.svg" alt="a cream tabby cat in loaf position, breathing, tail curled, sleeping" width="260">
-</p>
-
 ## status
 
 theory-complete. the command has been iterated, not battle-tested. open an issue if you find a gap, prs welcome.
 
 if you port the four-mode shape to another agent and it works, link back. a collection of ports would be fun to assemble.
+
+## credits
+
+pixel-art style inspired by [Gowee/nyancat-svg](https://github.com/Gowee/nyancat-svg).
 
 ## license
 
