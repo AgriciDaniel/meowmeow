@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 72" width="160" height="72"
+     role="img" aria-label="tuxedo cat trotting">
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-2; 0,0; 0,-2; 0,0" dur="0.52s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.25;0.5;0.75;1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 32 44; 14 32 44; 0 32 44" dur="1.6s" repeatCount="indefinite"
+        calcMode="spline" keyTimes="0;0.5;1"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+      <path d="M32,44 Q18,36 12,22 Q7,10 14,7 Q21,4 23,16 Q25,28 33,42"
+            stroke="#555" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M32,44 Q18,36 12,22 Q7,10 14,7 Q21,4 23,16 Q25,28 33,42"
+            stroke="#333" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4"/>
+    </g>
+    <rect x="44" y="58" width="10" height="13" rx="5" fill="#404040">
+      <animate attributeName="y" values="58;52;58" dur="0.52s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <rect x="56" y="52" width="10" height="13" rx="5" fill="#555">
+      <animate attributeName="y" values="52;58;52" dur="0.52s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <!-- body -->
+    <ellipse cx="80" cy="46" rx="52" ry="18" fill="#606060"/>
+    <!-- white chest tuxedo patch -->
+    <ellipse cx="80" cy="54" rx="34" ry="12" fill="#f0f0f0"/>
+    <rect x="104" y="52" width="10" height="13" rx="5" fill="#f0f0f0">
+      <animate attributeName="y" values="52;58;52" dur="0.52s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <rect x="116" y="58" width="10" height="13" rx="5" fill="#e8e8e8">
+      <animate attributeName="y" values="58;52;58" dur="0.52s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <ellipse cx="122" cy="40" rx="10" ry="14" fill="#606060"/>
+    <polygon points="118,24 122,6 136,22" fill="#606060"/>
+    <polygon points="120,23 123,11 134,22" fill="#c09090"/>
+    <polygon points="132,22 136,7 146,22" fill="#606060"/>
+    <polygon points="133,22 137,12 144,22" fill="#c09090"/>
+    <circle cx="136" cy="26" r="20" fill="#606060"/>
+    <!-- white lower face -->
+    <ellipse cx="144" cy="34" rx="12" ry="10" fill="#f0f0f0"/>
+    <ellipse cx="148" cy="32" rx="9" ry="7" fill="#f0f0f0"/>
+    <circle cx="130" cy="20" r="8" fill="white"/>
+    <ellipse cx="130" cy="20" rx="5.5" ry="5.5" fill="#40c040">
+      <animate attributeName="ry" values="5.5;5.5;5.5;0.3;5.5"
+               keyTimes="0;0.82;0.9;0.93;1" calcMode="spline"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1"
+               dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="130" cy="20" rx="2" ry="4" fill="#111">
+      <animate attributeName="ry" values="4;4;4;0.2;4"
+               keyTimes="0;0.82;0.9;0.93;1" calcMode="spline"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1"
+               dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="127" cy="17" r="1.5" fill="white"/>
+    <ellipse cx="147" cy="30" rx="2.5" ry="2" fill="#e07080"/>
+    <path d="M145,32 Q143,35 141,34" stroke="#888" stroke-width="1.2"
+          fill="none" stroke-linecap="round"/>
+    <path d="M149,32 Q151,35 153,34" stroke="#888" stroke-width="1.2"
+          fill="none" stroke-linecap="round"/>
+    <line x1="142" y1="30" x2="159" y2="27" stroke="#606060" stroke-width="1"
+          stroke-linecap="round" opacity="0.6"/>
+    <line x1="142" y1="32" x2="159" y2="33" stroke="#606060" stroke-width="1"
+          stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

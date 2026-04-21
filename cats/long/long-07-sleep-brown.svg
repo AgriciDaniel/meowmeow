@@ -1,45 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72" width="240" height="72" role="img" aria-label="brown cat sleeping curled up">
-<style>
-.g{animation:breathe 5s ease-in-out infinite}
-.z1{animation:z1 3s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
-.z2{animation:z2 3s ease-in-out infinite 1.5s;transform-box:fill-box;transform-origin:0% 100%}
-@keyframes breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.04)}}
-@keyframes z1{0%{transform:translate(0,0) scale(1);opacity:1}100%{transform:translate(10px,-32px) scale(1.4);opacity:0}}
-@keyframes z2{0%{transform:translate(0,0) scale(.7);opacity:0}15%{opacity:.8}100%{transform:translate(14px,-44px) scale(1.6);opacity:0}}
-</style>
-<g class="g">
-  <!-- curled body -->
-  <ellipse cx="108" cy="52" rx="88" ry="20" fill="#9b6b4a"/>
-  <ellipse cx="108" cy="48" rx="74" ry="16" fill="#9b6b4a"/>
-  <ellipse cx="108" cy="56" rx="66" ry="13" fill="#b88060"/>
-  <!-- tail curling around right -->
-  <path d="M190,52 Q210,44 214,34 Q218,24 208,24 Q200,24 200,34 Q200,44 190,50"
-        stroke="#9b6b4a" stroke-width="13" fill="none" stroke-linecap="round"/>
-  <path d="M190,52 Q210,44 214,34 Q218,24 208,24 Q200,24 200,34 Q200,44 190,50"
-        stroke="#7a4a28" stroke-width="5" fill="none" stroke-linecap="round" opacity=".35"/>
-  <!-- stripes -->
-  <path d="M60,36 C61,46 61,56 60,64" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M88,34 C89,46 89,58 88,66" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M116,34 C117,46 117,58 116,64" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <!-- paws tucked -->
-  <ellipse cx="42" cy="65" rx="14" ry="7" fill="#9b6b4a"/>
-  <ellipse cx="70" cy="68" rx="14" ry="6" fill="#b88060"/>
-  <!-- head tucked down-left -->
-  <polygon points="28,30 32,14 46,28" fill="#9b6b4a"/>
-  <polygon points="30,29 33,18 44,28" fill="#c89070"/>
-  <circle cx="36" cy="40" r="24" fill="#9b6b4a"/>
-  <ellipse cx="26" cy="46" rx="12" ry="9" fill="#b88060"/>
-  <!-- closed eye (simple arc line) -->
-  <path d="M28,36 Q34,32 40,36" stroke="#7a4a28" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <!-- nose -->
-  <ellipse cx="22" cy="44" rx="4" ry="3" fill="#c06060"/>
-  <!-- Z bubbles -->
-  <g class="z1">
-    <text x="68" y="22" font-size="16" font-weight="bold" fill="#9b6b4a" font-family="sans-serif">z</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" width="140" height="70"
+     role="img" aria-label="brown cat sleeping">
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-1; 0,0" dur="5s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+    <!-- tail curled around right -->
+    <path d="M112,50 Q126,42 128,30 Q130,20 122,20 Q114,20 114,30 Q114,40 110,48"
+          stroke="#9b6b4a" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M112,50 Q126,42 128,30 Q130,20 122,20 Q114,20 114,30 Q114,40 110,48"
+          stroke="#7a4a28" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.35"/>
+
+    <!-- curled body -->
+    <ellipse cx="68" cy="52" rx="58" ry="17" fill="#9b6b4a"/>
+    <ellipse cx="68" cy="46" rx="48" ry="14" fill="#9b6b4a"/>
+    <ellipse cx="68" cy="56" rx="46" ry="11" fill="#b88060"/>
+
+    <!-- stripes -->
+    <path d="M38,36 C39,46 39,56 38,64" stroke="#7a4a28" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+    <path d="M58,34 C59,46 59,58 58,66" stroke="#7a4a28" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+    <path d="M78,34 C79,46 79,58 78,64" stroke="#7a4a28" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+
+    <!-- paws tucked -->
+    <ellipse cx="22" cy="64" rx="12" ry="6" fill="#9b6b4a"/>
+    <ellipse cx="42" cy="67" rx="12" ry="5" fill="#b88060"/>
+
+    <!-- head tucked, facing left-down -->
+    <polygon points="18,30 22,14 36,28" fill="#9b6b4a"/>
+    <polygon points="20,29 23,18 34,28" fill="#c89070"/>
+    <circle cx="28" cy="40" r="22" fill="#9b6b4a"/>
+    <ellipse cx="18" cy="46" rx="11" ry="8" fill="#b88060"/>
+
+    <!-- closed eye (arc line) -->
+    <path d="M20,36 Q26,32 32,36" stroke="#7a4a28" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+
+    <!-- nose -->
+    <ellipse cx="15" cy="44" rx="3" ry="2.2" fill="#c06060"/>
+
+    <!-- floating Z's -->
+    <text x="50" y="24" font-size="14" font-weight="bold" fill="#9b6b4a"
+          font-family="Georgia, serif">z
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 4,-16; 8,-32" dur="3s" repeatCount="indefinite"
+        calcMode="linear"/>
+      <animate attributeName="opacity" values="0.9;0.4;0" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="66" y="14" font-size="18" font-weight="bold" fill="#b88060"
+          font-family="Georgia, serif">z
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 6,-20; 12,-40" dur="3s" begin="1.5s" repeatCount="indefinite"
+        calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.9;0.4;0" keyTimes="0;0.1;0.6;1"
+               dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </text>
   </g>
-  <g class="z2">
-    <text x="82" y="12" font-size="20" font-weight="bold" fill="#b88060" font-family="sans-serif">z</text>
-  </g>
-</g>
 </svg>

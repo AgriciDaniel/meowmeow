@@ -1,48 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="gray tabby cat walking">
-<style>
-.g{animation:bob .6s ease-in-out infinite}
-.la{animation:la .6s ease-in-out infinite}
-.lb{animation:lb .6s ease-in-out infinite}
-.tw{animation:wag 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:90% 85%}
-.bl{animation:bl 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
-@keyframes la{0%,100%{transform:translateY(-7px)}50%{transform:translateY(0)}}
-@keyframes lb{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-@keyframes wag{0%,100%{transform:rotate(0deg)}50%{transform:rotate(22deg)}}
-@keyframes bl{0%,87%,100%{transform:scaleY(1)}91%{transform:scaleY(.05)}}
-</style>
-<g class="g">
-  <g class="tw">
-    <path d="M57,49 Q40,41 30,26 Q20,12 28,7 Q36,3 40,15 Q44,27 57,45"
-          stroke="#a8b0b8" stroke-width="14" fill="none" stroke-linecap="round"/>
-    <path d="M57,49 Q40,41 30,26 Q20,12 28,7 Q36,3 40,15 Q44,27 57,45"
-          stroke="#7888a0" stroke-width="5" fill="none" stroke-linecap="round" opacity=".45"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 72" width="160" height="72"
+     role="img" aria-label="gray tabby cat walking">
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-2; 0,0; 0,-2; 0,0" dur="0.6s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.25;0.5;0.75;1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 32 44; 14 32 44; 0 32 44" dur="1.8s" repeatCount="indefinite"
+        calcMode="spline" keyTimes="0;0.5;1"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+      <path d="M32,44 Q18,36 12,22 Q7,10 14,7 Q21,4 23,16 Q25,28 33,42"
+            stroke="#a8b0b8" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M32,44 Q18,36 12,22 Q7,10 14,7 Q21,4 23,16 Q25,28 33,42"
+            stroke="#7888a0" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.35"/>
+    </g>
+    <rect x="44" y="58" width="10" height="13" rx="5" fill="#7888a0">
+      <animate attributeName="y" values="58;52;58" dur="0.6s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <rect x="56" y="52" width="10" height="13" rx="5" fill="#8898a8">
+      <animate attributeName="y" values="52;58;52" dur="0.6s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <ellipse cx="80" cy="46" rx="52" ry="18" fill="#a8b0b8"/>
+    <ellipse cx="80" cy="53" rx="38" ry="10" fill="#7888a0" opacity="0.22"/>
+    <path d="M50,30 C51,41 51,53 50,62" stroke="#7888a0" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+    <path d="M68,28 C69,41 69,55 68,64" stroke="#7888a0" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+    <path d="M86,28 C87,41 87,55 86,64" stroke="#7888a0" stroke-width="2.5"
+          fill="none" stroke-linecap="round"/>
+    <rect x="104" y="52" width="10" height="13" rx="5" fill="#7888a0">
+      <animate attributeName="y" values="52;58;52" dur="0.6s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <rect x="116" y="58" width="10" height="13" rx="5" fill="#8898a8">
+      <animate attributeName="y" values="58;52;58" dur="0.6s" repeatCount="indefinite"
+               calcMode="spline" keyTimes="0;0.5;1"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </rect>
+    <ellipse cx="122" cy="40" rx="10" ry="14" fill="#a8b0b8"/>
+    <polygon points="118,24 122,6 136,22" fill="#a8b0b8"/>
+    <polygon points="120,23 123,11 134,22" fill="#c8a0b0"/>
+    <polygon points="132,22 136,7 146,22" fill="#a8b0b8"/>
+    <polygon points="133,22 137,12 144,22" fill="#c8a0b0"/>
+    <circle cx="136" cy="26" r="20" fill="#a8b0b8"/>
+    <ellipse cx="148" cy="32" rx="9" ry="7" fill="#c4ccd4"/>
+    <circle cx="130" cy="20" r="8" fill="white"/>
+    <ellipse cx="130" cy="20" rx="5.5" ry="5.5" fill="#4a90c0">
+      <animate attributeName="ry" values="5.5;5.5;5.5;0.3;5.5"
+               keyTimes="0;0.82;0.9;0.93;1" calcMode="spline"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1"
+               dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="130" cy="20" rx="2" ry="4" fill="#111">
+      <animate attributeName="ry" values="4;4;4;0.2;4"
+               keyTimes="0;0.82;0.9;0.93;1" calcMode="spline"
+               keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1"
+               dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="127" cy="17" r="1.5" fill="white"/>
+    <ellipse cx="147" cy="30" rx="2.5" ry="2" fill="#d08090"/>
+    <path d="M145,32 Q143,35 141,34" stroke="#907080" stroke-width="1.2"
+          fill="none" stroke-linecap="round"/>
+    <path d="M149,32 Q151,35 153,34" stroke="#907080" stroke-width="1.2"
+          fill="none" stroke-linecap="round"/>
+    <line x1="142" y1="30" x2="159" y2="27" stroke="#7888a0" stroke-width="1"
+          stroke-linecap="round" opacity="0.7"/>
+    <line x1="142" y1="32" x2="159" y2="33" stroke="#7888a0" stroke-width="1"
+          stroke-linecap="round" opacity="0.7"/>
   </g>
-  <rect class="lb" x="78" y="63" width="14" height="16" rx="7" fill="#7888a0"/>
-  <rect class="la" x="96" y="63" width="14" height="16" rx="7" fill="#8898b0"/>
-  <ellipse cx="148" cy="52" rx="94" ry="22" fill="#a8b0b8"/>
-  <ellipse cx="148" cy="61" rx="68" ry="12" fill="#7888a0" opacity=".25"/>
-  <path d="M90,32 C91,45 91,57 90,67" stroke="#7888a0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <path d="M120,30 C121,45 121,59 120,69" stroke="#7888a0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <path d="M150,30 C151,45 151,59 150,69" stroke="#7888a0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <rect class="la" x="188" y="63" width="14" height="16" rx="7" fill="#a8b0b8"/>
-  <rect class="lb" x="206" y="63" width="14" height="16" rx="7" fill="#98a8b8"/>
-  <ellipse cx="226" cy="46" rx="16" ry="20" fill="#a8b0b8"/>
-  <polygon points="238,28 244,7 261,25" fill="#a8b0b8"/>
-  <polygon points="240,27 246,13 259,25" fill="#c8a0b0"/>
-  <polygon points="255,25 261,8 272,24" fill="#a8b0b8"/>
-  <polygon points="257,25 262,14 270,24" fill="#c8a0b0"/>
-  <circle cx="259" cy="31" r="28" fill="#a8b0b8"/>
-  <ellipse cx="276" cy="38" rx="14" ry="11" fill="#c8d0d8"/>
-  <circle cx="250" cy="22" r="10" fill="white"/>
-  <circle cx="250" cy="22" r="6.5" fill="#4a90c0" class="bl"/>
-  <circle cx="250" cy="22" r="3" fill="#111" class="bl"/>
-  <circle cx="247" cy="19" r="1.8" fill="white"/>
-  <ellipse cx="274" cy="35" rx="4" ry="3" fill="#d08090"/>
-  <path d="M271,37 Q268,41 266,40" stroke="#907080" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <path d="M277,37 Q280,41 282,40" stroke="#907080" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <line x1="265" y1="36" x2="298" y2="32" stroke="#7888a0" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
-  <line x1="265" y1="39" x2="298" y2="39" stroke="#7888a0" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
-</g>
 </svg>
