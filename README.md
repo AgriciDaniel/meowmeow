@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="assets/cat-orange.svg" alt="a pixel-art orange tabby cat face with blinking green eyes" width="140">
-  <img src="assets/cat-gray.svg" alt="a pixel-art gray tabby cat face with blinking blue eyes" width="140">
-  <img src="assets/cat-cream.svg" alt="a pixel-art cream cat face with blinking amber eyes" width="140">
+  <img src="cats/cat-morph.svg" alt="pixel-art cat morphing through orange, gray, cream, and blue-gray" width="140">
 </p>
 
 <h1 align="center">meowmeow</h1>
