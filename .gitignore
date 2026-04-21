@@ -1,0 +1,8 @@
+# local session transcript from the design sprint, kept on disk but not published
+chat-history.md
+
+# editor/os noise
+.DS_Store
+*.swp
+.vscode/
+.idea/
