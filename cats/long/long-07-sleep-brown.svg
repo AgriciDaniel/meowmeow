@@ -1,59 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 65" width="240" height="65" shape-rendering="crispEdges" role="img" aria-label="sleeping brown pixel-art cat curled up with z bubbles">
-  <g>
-    <animateTransform attributeName="transform" type="translate"
-                      values="0,0; 0,-1; 0,0"
-                      calcMode="spline"
-                      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
-                      keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/>
-    <!-- tail curling around right side -->
-    <rect x="196" y="42" width="32" height="8"  fill="#9b6b4a"/>
-    <rect x="220" y="34" width="10" height="14" fill="#9b6b4a"/>
-    <rect x="214" y="28" width="14" height="10" fill="#7a4a28"/>
-    <!-- main sleeping body blob -->
-    <rect x="24"  y="34" width="180" height="22" fill="#9b6b4a"/>
-    <rect x="18"  y="38" width="12"  height="14" fill="#9b6b4a"/>
-    <rect x="198" y="38" width="12"  height="14" fill="#9b6b4a"/>
-    <rect x="34"  y="28" width="162" height="12" fill="#9b6b4a"/>
-    <rect x="46"  y="22" width="138" height="12" fill="#9b6b4a"/>
-    <!-- belly lighter -->
-    <rect x="34"  y="42" width="160" height="10" fill="#b88060"/>
-    <!-- stripes -->
-    <rect x="54"  y="26" width="7" height="18" fill="#7a4a28"/>
-    <rect x="82"  y="24" width="7" height="22" fill="#7a4a28"/>
-    <rect x="112" y="24" width="7" height="20" fill="#7a4a28"/>
-    <rect x="140" y="26" width="7" height="16" fill="#7a4a28"/>
-    <rect x="166" y="30" width="7" height="12" fill="#7a4a28"/>
-    <!-- head (tucked, sleeping) -->
-    <rect x="14"  y="20" width="56" height="38" fill="#9b6b4a"/>
-    <rect x="8"   y="28" width="12" height="24" fill="#9b6b4a"/>
-    <!-- closed eyes (just a line) -->
-    <rect x="20"  y="30" width="20" height="5" fill="#7a4a28"/>
-    <!-- nose -->
-    <rect x="18"  y="38" width="7" height="5" fill="#c05050"/>
-    <!-- ear on top -->
-    <rect x="20"  y="10" width="16" height="12" fill="#9b6b4a"/>
-    <rect x="22"  y="12" width="10" height="7"  fill="#b88060"/>
-    <rect x="42"  y="12" width="16" height="10" fill="#9b6b4a"/>
-    <rect x="44"  y="14" width="10" height="6"  fill="#b88060"/>
-    <!-- floating Z's -->
-    <g>
-      <rect x="74" y="14" width="16" height="4" fill="#9b6b4a"/>
-      <rect x="86" y="18" width="6"  height="4" fill="#9b6b4a"/>
-      <rect x="78" y="22" width="6"  height="4" fill="#9b6b4a"/>
-      <rect x="74" y="26" width="6"  height="4" fill="#9b6b4a"/>
-      <rect x="74" y="26" width="16" height="4" fill="#9b6b4a"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 5,-18; 10,-36" calcMode="linear" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.5;0" dur="3s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect x="96" y="6"  width="20" height="5" fill="#b88060"/>
-      <rect x="111" y="11" width="8"  height="5" fill="#b88060"/>
-      <rect x="103" y="16" width="7"  height="5" fill="#b88060"/>
-      <rect x="96"  y="21" width="8"  height="5" fill="#b88060"/>
-      <rect x="96"  y="21" width="20" height="5" fill="#b88060"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 7,-24; 14,-48" calcMode="linear" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;0.5;0" keyTimes="0;0.1;0.7;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72" width="240" height="72" role="img" aria-label="brown cat sleeping curled up">
+<style>
+.g{animation:breathe 5s ease-in-out infinite}
+.z1{animation:z1 3s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+.z2{animation:z2 3s ease-in-out infinite 1.5s;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.04)}}
+@keyframes z1{0%{transform:translate(0,0) scale(1);opacity:1}100%{transform:translate(10px,-32px) scale(1.4);opacity:0}}
+@keyframes z2{0%{transform:translate(0,0) scale(.7);opacity:0}15%{opacity:.8}100%{transform:translate(14px,-44px) scale(1.6);opacity:0}}
+</style>
+<g class="g">
+  <!-- curled body -->
+  <ellipse cx="108" cy="52" rx="88" ry="20" fill="#9b6b4a"/>
+  <ellipse cx="108" cy="48" rx="74" ry="16" fill="#9b6b4a"/>
+  <ellipse cx="108" cy="56" rx="66" ry="13" fill="#b88060"/>
+  <!-- tail curling around right -->
+  <path d="M190,52 Q210,44 214,34 Q218,24 208,24 Q200,24 200,34 Q200,44 190,50"
+        stroke="#9b6b4a" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M190,52 Q210,44 214,34 Q218,24 208,24 Q200,24 200,34 Q200,44 190,50"
+        stroke="#7a4a28" stroke-width="5" fill="none" stroke-linecap="round" opacity=".35"/>
+  <!-- stripes -->
+  <path d="M60,36 C61,46 61,56 60,64" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M88,34 C89,46 89,58 88,66" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M116,34 C117,46 117,58 116,64" stroke="#7a4a28" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- paws tucked -->
+  <ellipse cx="42" cy="65" rx="14" ry="7" fill="#9b6b4a"/>
+  <ellipse cx="70" cy="68" rx="14" ry="6" fill="#b88060"/>
+  <!-- head tucked down-left -->
+  <polygon points="28,30 32,14 46,28" fill="#9b6b4a"/>
+  <polygon points="30,29 33,18 44,28" fill="#c89070"/>
+  <circle cx="36" cy="40" r="24" fill="#9b6b4a"/>
+  <ellipse cx="26" cy="46" rx="12" ry="9" fill="#b88060"/>
+  <!-- closed eye (simple arc line) -->
+  <path d="M28,36 Q34,32 40,36" stroke="#7a4a28" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- nose -->
+  <ellipse cx="22" cy="44" rx="4" ry="3" fill="#c06060"/>
+  <!-- Z bubbles -->
+  <g class="z1">
+    <text x="68" y="22" font-size="16" font-weight="bold" fill="#9b6b4a" font-family="sans-serif">z</text>
   </g>
+  <g class="z2">
+    <text x="82" y="12" font-size="20" font-weight="bold" fill="#b88060" font-family="sans-serif">z</text>
+  </g>
+</g>
 </svg>

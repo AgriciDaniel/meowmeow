@@ -1,89 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" shape-rendering="crispEdges" role="img" aria-label="orange pixel-art tabby cat walking">
-  <g>
-    <animateTransform attributeName="transform" type="translate"
-                      values="0,0; 0,-1; 0,0; 0,-1; 0,0"
-                      calcMode="spline"
-                      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"
-                      keyTimes="0;0.25;0.5;0.75;1" dur="0.8s" repeatCount="indefinite"/>
-    <!-- tail -->
-    <rect x="20" y="28" width="36" height="10" fill="#e89b5a"/>
-    <rect x="16" y="10" width="10" height="24" fill="#e89b5a"/>
-    <rect x="14" y="6"  width="22" height="12" fill="#e89b5a"/>
-    <rect x="12" y="4"  width="14" height="8"  fill="#c27a3a"/>
-    <!-- body -->
-    <rect x="50" y="26" width="156" height="34" fill="#e89b5a"/>
-    <rect x="44" y="32" width="12"  height="24" fill="#e89b5a"/>
-    <!-- belly lighter -->
-    <rect x="60" y="38" width="132" height="18" fill="#f4b078"/>
-    <!-- neck -->
-    <rect x="200" y="28" width="18" height="27" fill="#e89b5a"/>
-    <!-- tabby stripes -->
-    <rect x="68"  y="26" width="8" height="20" fill="#c27a3a"/>
-    <rect x="96"  y="26" width="8" height="24" fill="#c27a3a"/>
-    <rect x="126" y="26" width="8" height="20" fill="#c27a3a"/>
-    <rect x="154" y="26" width="8" height="14" fill="#c27a3a"/>
-    <!-- head block -->
-    <rect x="212" y="10" width="68" height="52" fill="#e89b5a"/>
-    <!-- snout -->
-    <rect x="268" y="30" width="22" height="28" fill="#f4b078"/>
-    <!-- ear back -->
-    <rect x="217" y="0"  width="18" height="14" fill="#e89b5a"/>
-    <rect x="219" y="2"  width="12" height="9"  fill="#f4b078"/>
-    <!-- ear front -->
-    <rect x="240" y="0"  width="18" height="14" fill="#e89b5a"/>
-    <rect x="242" y="2"  width="12" height="9"  fill="#f4b078"/>
-    <!-- eye white -->
-    <rect x="250" y="20" width="16" height="14" fill="#fafafa"/>
-    <!-- iris -->
-    <rect x="250" y="20" width="16" height="14" fill="#3a7c3a">
-      <animate attributeName="height" values="14;14;14;0;14" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="20;20;20;27;20" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <!-- pupil -->
-    <rect x="253" y="22" width="7" height="10" fill="#1a1a1a">
-      <animate attributeName="height" values="10;10;10;0;10" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="y" values="22;22;22;27;22" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="251" y="21" width="5" height="4" fill="#fafafa"/>
-    <!-- nose -->
-    <rect x="276" y="38" width="8" height="6" fill="#c06060"/>
-    <!-- mouth -->
-    <rect x="272" y="46" width="7" height="4" fill="#6b3a1a"/>
-    <rect x="280" y="46" width="7" height="4" fill="#6b3a1a"/>
-    <!-- whiskers -->
-    <g stroke="#6b3a1a" stroke-width="1.5" stroke-linecap="square" fill="none">
-      <line x1="278" y1="40" x2="299" y2="36"/>
-      <line x1="278" y1="44" x2="299" y2="48"/>
-    </g>
-    <!-- back-left leg (phase A: lifts at 0.4s) -->
-    <rect x="74" y="58" width="15" height="20" fill="#e89b5a">
-      <animate attributeName="y" values="58;52;58" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <!-- back-right leg (phase B: lifts at 0s) -->
-    <rect x="96" y="52" width="15" height="20" fill="#c27a3a">
-      <animate attributeName="y" values="52;58;52" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <!-- front-left leg (phase B) -->
-    <rect x="172" y="52" width="15" height="20" fill="#c27a3a">
-      <animate attributeName="y" values="52;58;52" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <!-- front-right leg (phase A) -->
-    <rect x="194" y="58" width="15" height="20" fill="#e89b5a">
-      <animate attributeName="y" values="58;52;58" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <!-- paws -->
-    <rect x="74" y="72" width="15" height="6" fill="#c27a3a">
-      <animate attributeName="y" values="72;66;72" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="96" y="66" width="15" height="6" fill="#c27a3a">
-      <animate attributeName="y" values="66;72;66" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="172" y="66" width="15" height="6" fill="#c27a3a">
-      <animate attributeName="y" values="66;72;66" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="194" y="72" width="15" height="6" fill="#c27a3a">
-      <animate attributeName="y" values="72;66;72" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="orange tabby cat walking">
+<style>
+.g{animation:bob .6s ease-in-out infinite}
+.la{animation:la .6s ease-in-out infinite}
+.lb{animation:lb .6s ease-in-out infinite}
+.tw{animation:wag 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:90% 85%}
+.bl{animation:bl 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@keyframes la{0%,100%{transform:translateY(-7px)}50%{transform:translateY(0)}}
+@keyframes lb{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes wag{0%,100%{transform:rotate(0deg)}50%{transform:rotate(22deg)}}
+@keyframes bl{0%,87%,100%{transform:scaleY(1)}91%{transform:scaleY(.05)}}
+</style>
+<g class="g">
+  <g class="tw">
+    <path d="M57,49 Q40,41 30,26 Q20,12 28,7 Q36,3 40,15 Q44,27 57,45"
+          stroke="#f0a020" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M57,49 Q40,41 30,26 Q20,12 28,7 Q36,3 40,15 Q44,27 57,45"
+          stroke="#c07a10" stroke-width="5" fill="none" stroke-linecap="round" opacity=".4"/>
   </g>
+  <rect class="lb" x="78" y="63" width="14" height="16" rx="7" fill="#c07a10"/>
+  <rect class="la" x="96" y="63" width="14" height="16" rx="7" fill="#d08818"/>
+  <ellipse cx="148" cy="52" rx="94" ry="22" fill="#f0a020"/>
+  <ellipse cx="148" cy="61" rx="68" ry="12" fill="#c07a10" opacity=".25"/>
+  <path d="M90,32 C91,45 91,57 90,67" stroke="#c07a10" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M120,30 C121,45 121,59 120,69" stroke="#c07a10" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M150,30 C151,45 151,59 150,69" stroke="#c07a10" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <rect class="la" x="188" y="63" width="14" height="16" rx="7" fill="#f0a020"/>
+  <rect class="lb" x="206" y="63" width="14" height="16" rx="7" fill="#e09018"/>
+  <ellipse cx="226" cy="46" rx="16" ry="20" fill="#f0a020"/>
+  <polygon points="238,28 244,7 261,25" fill="#f0a020"/>
+  <polygon points="240,27 246,13 259,25" fill="#ffbe80"/>
+  <polygon points="255,25 261,8 272,24" fill="#f0a020"/>
+  <polygon points="257,25 262,14 270,24" fill="#ffbe80"/>
+  <circle cx="259" cy="31" r="28" fill="#f0a020"/>
+  <ellipse cx="276" cy="38" rx="14" ry="11" fill="#ffc060"/>
+  <circle cx="250" cy="22" r="10" fill="white"/>
+  <circle cx="250" cy="22" r="6.5" fill="#3a8c3a" class="bl"/>
+  <circle cx="250" cy="22" r="3" fill="#111" class="bl"/>
+  <circle cx="247" cy="19" r="1.8" fill="white"/>
+  <ellipse cx="274" cy="35" rx="4" ry="3" fill="#e07880"/>
+  <path d="M271,37 Q268,41 266,40" stroke="#b04040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M277,37 Q280,41 282,40" stroke="#b04040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <line x1="265" y1="36" x2="298" y2="32" stroke="#c07a10" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+  <line x1="265" y1="39" x2="298" y2="39" stroke="#c07a10" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+</g>
 </svg>
