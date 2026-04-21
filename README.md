@@ -38,10 +38,6 @@ same signal, different meaning per context. like cats, where the meow at a human
 
 the agent should too.
 
-<p align="center">
-  <img src="cats/cat-vector-sitting.svg" alt="sitting cat" width="80">
-</p>
-
 ## principles
 
 agent-agnostic. these apply to any chat-based AI, any LLM, any custom pipeline, any role where you are trying to get honest answers from a model that has read the whole internet and learned that agreeable is safe.
