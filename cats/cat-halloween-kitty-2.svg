@@ -1,40 +1,22 @@
 <?xml version="1.0" ?>
-<!-- Style B: Spooky Pulse — body darkens/shifts to deep navy, ears flash hot pink, eyes flicker -->
 <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path d="M16,7,13,9V5.2071a.5.5,0,0,1,.8536-.3535Z">
-    <animate attributeName="fill" values="#ff888b;#ff1a44;#ffaacc;#ff888b"
-      keyTimes="0;0.33;0.66;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M18,7l3,2V5.2071a.5.5,0,0,0-.8536-.3535Z">
-    <animate attributeName="fill" values="#ff888b;#ff1a44;#ffaacc;#ff888b"
-      keyTimes="0;0.33;0.66;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M6,13H4V5A1,1,0,0,1,5,4H5A1,1,0,0,1,6,5Z">
-    <animate attributeName="fill" values="#4b5661;#18243e;#4b5661"
-      keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M5.5,22h0A1.5,1.5,0,0,1,4,20.5V13H7v7.5A1.5,1.5,0,0,1,5.5,22Z">
-    <animate attributeName="fill" values="#4b5661;#18243e;#4b5661"
-      keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M15.5,22h0A1.5,1.5,0,0,1,14,20.5V13h3v7.5A1.5,1.5,0,0,1,15.5,22Z">
-    <animate attributeName="fill" values="#4b5661;#18243e;#4b5661"
-      keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M17,19c-3-4-10-4-13,0V12c3-4,10-4,13,0Z">
-    <animate attributeName="fill" values="#4b5661;#18243e;#4b5661"
-      keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M17,14h0a4,4,0,0,1-4-4V7h8v3A4.00005,4.00005,0,0,1,17,14Z">
-    <animate attributeName="fill" values="#4b5661;#18243e;#4b5661"
-      keyTimes="0;0.5;1" dur="2.4s" repeatCount="indefinite"/>
-  </path>
+  <path d="M16,7,13,9V5.2071a.5.5,0,0,1,.8536-.3535Z" fill="#ff888b"/>
+  <path d="M18,7l3,2V5.2071a.5.5,0,0,0-.8536-.3535Z" fill="#ff888b"/>
+  <path d="M6,13H4V5A1,1,0,0,1,5,4H5A1,1,0,0,1,6,5Z" fill="#4b5661"/>
+  <path d="M5.5,22h0A1.5,1.5,0,0,1,4,20.5V13H7v7.5A1.5,1.5,0,0,1,5.5,22Z" fill="#4b5661"/>
+  <path d="M15.5,22h0A1.5,1.5,0,0,1,14,20.5V13h3v7.5A1.5,1.5,0,0,1,15.5,22Z" fill="#4b5661"/>
+  <path d="M17,19c-3-4-10-4-13,0V12c3-4,10-4,13,0Z" fill="#4b5661"/>
+  <path d="M17,14h0a4,4,0,0,1-4-4V7h8v3A4.00005,4.00005,0,0,1,17,14Z" fill="#4b5661"/>
   <circle cx="15.25" cy="9.75" r="0.75" fill="#fff">
-    <animate attributeName="opacity" values="1;1;0.08;1;1"
-      keyTimes="0;0.46;0.5;0.54;1" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="0.75;0.75;0.04;0.04;0.75"
+      keyTimes="0;0.75;0.82;0.90;1"
+      dur="5s" repeatCount="indefinite"/>
   </circle>
   <circle cx="19" cy="9.75" r="0.75" fill="#fff">
-    <animate attributeName="opacity" values="1;1;0.08;1;1"
-      keyTimes="0;0.46;0.5;0.54;1" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="0.75;0.75;0.04;0.04;0.75"
+      keyTimes="0;0.75;0.82;0.90;1"
+      dur="5s" repeatCount="indefinite"/>
   </circle>
 </svg>

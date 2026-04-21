@@ -82,10 +82,6 @@ the logic is shape-based. classify the last assistant message into one of four s
 
 that is the whole trick. twenty lines of prompt or ten lines of code.
 
-<p align="center">
-  <img src="cats/cat-vector-sitting.svg" alt="sitting cat" width="80">
-</p>
-
 ## why cats
 
 cats meow at humans, not at each other. one sound, many meanings, context fills the gap. the philosophy here is the same: agents and users already share context, so stop treating every user turn as literal and start reading what actually happened.
