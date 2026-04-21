@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 65" width="300" height="65" shape-rendering="crispEdges" role="img" aria-label="blue-gray pixel-art cat stalking low to the ground">
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0,0; 0,-1; 0,0"
+                      calcMode="spline"
+                      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+                      keyTimes="0;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    <!-- tail flat/low, pointing back -->
+    <rect x="10" y="34" width="44" height="8"  fill="#8090a8"/>
+    <rect x="8"  y="30" width="18" height="8"  fill="#8090a8"/>
+    <rect x="8"  y="28" width="10" height="6"  fill="#607080"/>
+    <!-- body low/elongated crouch -->
+    <rect x="48" y="30" width="168" height="26" fill="#8090a8"/>
+    <rect x="42" y="34" width="12"  height="18" fill="#8090a8"/>
+    <rect x="60" y="38" width="144" height="14" fill="#a0b0c0"/>
+    <!-- neck stretched forward -->
+    <rect x="210" y="26" width="22" height="26" fill="#8090a8"/>
+    <!-- stripes -->
+    <rect x="66"  y="30" width="7" height="16" fill="#607080"/>
+    <rect x="92"  y="30" width="7" height="18" fill="#607080"/>
+    <rect x="120" y="30" width="7" height="16" fill="#607080"/>
+    <rect x="148" y="30" width="7" height="12" fill="#607080"/>
+    <!-- head, low and forward -->
+    <rect x="226" y="14" width="62" height="46" fill="#8090a8"/>
+    <rect x="278" y="28" width="20" height="28" fill="#a0b0c0"/>
+    <!-- ears (flattened) -->
+    <rect x="228" y="4"  width="16" height="12" fill="#8090a8"/>
+    <rect x="230" y="6"  width="10" height="7"  fill="#a08098"/>
+    <rect x="248" y="4"  width="16" height="12" fill="#8090a8"/>
+    <rect x="250" y="6"  width="10" height="7"  fill="#a08098"/>
+    <!-- eye (narrow/focused) -->
+    <rect x="252" y="22" width="16" height="12" fill="#fafafa"/>
+    <rect x="252" y="22" width="16" height="12" fill="#30c0b0">
+      <animate attributeName="height" values="12;12;12;0;12" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="22;22;22;28;22" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="255" y="24" width="6" height="8" fill="#1a1a1a">
+      <animate attributeName="height" values="8;8;8;0;8" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="24;24;24;28;24" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.12 0 0.39 0; 0.61 1 0.88 1" keyTimes="0;0.82;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="253" y="23" width="5" height="4" fill="#fafafa"/>
+    <rect x="282" y="36" width="8" height="6" fill="#b06878"/>
+    <rect x="278" y="44" width="7" height="4" fill="#405060"/>
+    <rect x="286" y="44" width="7" height="4" fill="#405060"/>
+    <g stroke="#405060" stroke-width="1.5" stroke-linecap="square" fill="none">
+      <line x1="280" y1="38" x2="299" y2="34"/>
+      <line x1="280" y1="42" x2="299" y2="46"/>
+    </g>
+    <!-- crouching legs, short stubs, slow creep -->
+    <rect x="72" y="54" width="14" height="10" fill="#8090a8">
+      <animate attributeName="y" values="54;50;54" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="94" y="50" width="14" height="10" fill="#607080">
+      <animate attributeName="y" values="50;54;50" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="178" y="50" width="14" height="10" fill="#607080">
+      <animate attributeName="y" values="50;54;50" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="200" y="54" width="14" height="10" fill="#8090a8">
+      <animate attributeName="y" values="54;50;54" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" keyTimes="0;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
