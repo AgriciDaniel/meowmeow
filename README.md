@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cats/animated/13-maneki-cat.svg" alt="lucky cat waving its paw" width="150">
+  <img src="cats/animated/17-peeking-cat.svg" alt="cat peeking over a fence with darting eyes" width="220">
 </p>
 
 <h1 align="center">meowmeow</h1>
@@ -20,7 +20,7 @@ that is not helpfulness. it is sycophancy: agreement behavior rewarded over trut
 skepticism is not new information.
 
 <p align="center">
-  <img src="cats/animated/17-peeking-cat.svg" alt="cat peeking over a fence with darting eyes" width="200">
+  <img src="cats/animated/13-maneki-cat.svg" alt="lucky cat waving its paw" width="150">
 </p>
 
 ## the shape
