@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220"
+     role="img" aria-label="Calico cat grooming itself by licking its raised paw">
+  <title>Grooming cat</title>
+  <desc>A calico cat sits and licks its raised front paw with a small pink tongue.</desc>
+
+  <ellipse cx="100" cy="160" rx="55" ry="40" fill="#fff5e0"/>
+  <path d="M70,135 Q90,150 110,140 Q130,130 145,150 Q150,170 130,175 Q105,180 80,170 Q60,160 70,135 Z" fill="#e08040"/>
+  <path d="M120,165 Q140,170 145,185 Q130,195 115,185 Q105,175 120,165 Z" fill="#3a2a1a"/>
+
+  <ellipse cx="98" cy="105" rx="42" ry="38" fill="#fff5e0"/>
+  <path d="M60,90 Q80,75 100,85 Q90,110 60,105 Z" fill="#3a2a1a"/>
+  <path d="M115,75 Q135,80 138,100 Q120,108 110,90 Z" fill="#e08040"/>
+
+  <g id="left-ear">
+    <polygon points="65,75 70,45 88,72" fill="#fff5e0"/>
+    <polygon points="65,75 70,45 78,68" fill="#3a2a1a"/>
+    <polygon points="71,72 75,55 84,72" fill="#ffc4d4"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 76 60; 0 76 60; -7 76 60; 3 76 60; 0 76 60"
+      keyTimes="0; 0.7; 0.78; 0.86; 1"
+      dur="3.5s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.42 0 0.58 1"/>
+  </g>
+  <polygon points="110,72 128,45 133,75" fill="#fff5e0"/>
+  <polygon points="118,72 128,45 133,75" fill="#e08040"/>
+  <polygon points="118,72 124,55 130,72" fill="#ffc4d4"/>
+
+  <circle cx="83" cy="100" r="4" fill="#fff"/>
+  <g id="right-eye">
+    <circle cx="115" cy="100" r="4" fill="#fff"/>
+    <circle cx="115" cy="100" r="2.5" fill="#3a8c3a"/>
+    <circle cx="115" cy="100" r="1" fill="#000"/>
+  </g>
+  <g id="left-eye">
+    <circle cx="83" cy="100" r="2.5" fill="#3a8c3a"/>
+    <circle cx="83" cy="100" r="1" fill="#000"/>
+    <animateTransform attributeName="transform" type="scale"
+      values="1 1; 1 1; 1 0.1; 1 1"
+      keyTimes="0; 0.4; 0.43; 0.46"
+      dur="2.5s" repeatCount="indefinite"
+      additive="sum"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 0; 0 90; 0 0"
+      keyTimes="0; 0.4; 0.43; 0.46"
+      dur="2.5s" repeatCount="indefinite"
+      additive="sum"/>
+  </g>
+
+  <path d="M99,113 L102,117 L96,117 Z" fill="#ff8888"/>
+
+  <g stroke="#444" stroke-width="0.8">
+    <line x1="65" y1="113" x2="45" y2="110"/>
+    <line x1="65" y1="117" x2="45" y2="121"/>
+    <line x1="133" y1="113" x2="155" y2="110"/>
+    <line x1="133" y1="117" x2="155" y2="121"/>
+  </g>
+
+  <g id="tongue">
+    <ellipse cx="100" cy="120" rx="4" ry="3" fill="#ff7799"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 0; -42 18; -42 18; 0 0"
+      keyTimes="0; 0.4; 0.5; 0.65; 0.75"
+      dur="2.5s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    <animate attributeName="opacity"
+      values="0; 0; 1; 1; 0"
+      keyTimes="0; 0.4; 0.5; 0.65; 0.75"
+      dur="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <g id="paw">
+    <path d="M55,180 Q40,160 50,140 Q55,130 70,135"
+          stroke="#fff5e0" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="50" cy="140" rx="11" ry="9" fill="#fff5e0"/>
+    <circle cx="46" cy="138" r="2.5" fill="#ffb6c1"/>
+    <circle cx="52" cy="135" r="2.5" fill="#ffb6c1"/>
+    <circle cx="55" cy="142" r="2.5" fill="#ffb6c1"/>
+    <ellipse cx="50" cy="148" rx="5" ry="3" fill="#ffb6c1"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-3 60 175; -22 60 175; -22 60 175; -3 60 175"
+      keyTimes="0; 0.4; 0.7; 1"
+      dur="2.5s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1; 0.42 0 0.58 1; 0.6 0 0.4 1"/>
+  </g>
+</svg>

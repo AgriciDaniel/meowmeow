@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"
+     role="img" aria-label="Black cat batting at a red yarn ball">
+  <title>Yarn cat</title>
+  <desc>A black cat sits and bats at a rolling red ball of yarn, tail swishing.</desc>
+
+  <g id="cat">
+    <ellipse cx="125" cy="135" rx="42" ry="28" fill="#1a1a1a"/>
+    <circle cx="155" cy="115" r="22" fill="#1a1a1a"/>
+    <polygon points="143,100 145,82 155,98" fill="#1a1a1a"/>
+    <polygon points="160,97 168,82 170,102" fill="#1a1a1a"/>
+    <polygon points="146,98 149,87 152,98" fill="#552233"/>
+    <polygon points="163,98 166,89 168,99" fill="#552233"/>
+
+    <g id="left-eye">
+      <ellipse cx="150" cy="113" rx="2.5" ry="3.5" fill="#7eff5e"/>
+      <line x1="150" y1="111" x2="150" y2="115" stroke="#000" stroke-width="1.2"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1; 1 1; 1 0.05; 1 1"
+        keyTimes="0; 0.45; 0.5; 0.55"
+        dur="4.5s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.6 1; 0.4 0 1 1; 0 0 0.6 1"
+        additive="sum"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 0; 0 113; 0 0"
+        keyTimes="0; 0.45; 0.5; 0.55"
+        dur="4.5s" repeatCount="indefinite"
+        additive="sum"/>
+    </g>
+    <g id="right-eye">
+      <ellipse cx="163" cy="113" rx="2.5" ry="3.5" fill="#7eff5e"/>
+      <line x1="163" y1="111" x2="163" y2="115" stroke="#000" stroke-width="1.2"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1; 1 1; 1 0.05; 1 1"
+        keyTimes="0; 0.45; 0.5; 0.55"
+        dur="4.5s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.6 1; 0.4 0 1 1; 0 0 0.6 1"
+        additive="sum"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 0; 0 113; 0 0"
+        keyTimes="0; 0.45; 0.5; 0.55"
+        dur="4.5s" repeatCount="indefinite"
+        additive="sum"/>
+    </g>
+
+    <path d="M153,123 Q156,126 159,123" stroke="#fff" stroke-width="1.2" fill="none"/>
+    <path d="M155,118 L157,121 L153,121 Z" fill="#ff99aa"/>
+
+    <g stroke="#666" stroke-width="0.8">
+      <line x1="145" y1="120" x2="130" y2="120"/>
+      <line x1="145" y1="123" x2="130" y2="125"/>
+      <line x1="167" y1="120" x2="180" y2="120"/>
+      <line x1="167" y1="123" x2="180" y2="125"/>
+    </g>
+
+    <g id="paw">
+      <ellipse cx="92" cy="125" rx="10" ry="14" fill="#1a1a1a"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 92 138; -35 92 138; 5 92 138; 0 92 138"
+        keyTimes="0; 0.35; 0.65; 1"
+        dur="1.6s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.2 1; 0.4 0 0.6 1; 0.42 0 0.58 1"/>
+    </g>
+
+    <g id="tail">
+      <path d="M165,150 Q180,155 178,135 Q172,118 158,128"
+            stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="-12 165 150; 18 165 150; -12 165 150"
+        dur="2.2s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </g>
+  </g>
+
+  <g id="yarn">
+    <circle cx="60" cy="155" r="16" fill="#d94f60"/>
+    <path d="M48,148 Q60,142 72,150 M50,158 Q60,152 72,160 M50,168 Q60,162 72,170"
+          stroke="#a52a37" stroke-width="1.5" fill="none"/>
+    <path d="M60,140 Q70,138 76,142" stroke="#d94f60" stroke-width="2" fill="none"/>
+    <path d="M76,142 Q90,150 95,170" stroke="#d94f60" stroke-width="1.5" fill="none"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; -22 -3; 0 0; -16 4; 0 0"
+      keyTimes="0; 0.3; 0.5; 0.8; 1"
+      dur="1.6s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"
+      additive="sum"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 60 155; -90 60 155; 0 60 155; 60 60 155; 0 60 155"
+      keyTimes="0; 0.3; 0.5; 0.8; 1"
+      dur="1.6s" repeatCount="indefinite"
+      additive="sum"/>
+  </g>
+</svg>

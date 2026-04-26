@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"
+     role="img" aria-label="Big-headed siamese kitten with curiously dilating pupils">
+  <title>Curious kitten</title>
+  <desc>A siamese kitten with oversized head, blue eyes whose pupils dilate with curiosity, and the occasional blink.</desc>
+
+  <ellipse cx="100" cy="155" rx="38" ry="22" fill="#f0e0c0"/>
+  <ellipse cx="80" cy="170" rx="9" ry="5" fill="#f0e0c0"/>
+  <ellipse cx="120" cy="170" rx="9" ry="5" fill="#f0e0c0"/>
+  <ellipse cx="80" cy="172" rx="6" ry="3" fill="#7a5a3a"/>
+  <ellipse cx="120" cy="172" rx="6" ry="3" fill="#7a5a3a"/>
+
+  <g id="tail">
+    <path d="M140,150 Q160,145 158,128 Q150,118 140,128"
+          stroke="#7a5a3a" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-5 145 148; 12 145 148; -5 145 148"
+      dur="2s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+  </g>
+
+  <g id="head">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-2 100 90; 2 100 90; -2 100 90"
+      dur="4.4s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+    <ellipse cx="100" cy="90" rx="55" ry="50" fill="#f0e0c0"/>
+    <ellipse cx="100" cy="115" rx="38" ry="22" fill="#7a5a3a" opacity="0.5"/>
+
+    <polygon points="50,75 56,30 88,68" fill="#f0e0c0"/>
+    <polygon points="112,68 144,30 150,75" fill="#f0e0c0"/>
+    <polygon points="56,68 62,42 78,68" fill="#7a5a3a"/>
+    <polygon points="122,68 138,42 144,68" fill="#7a5a3a"/>
+    <polygon points="62,68 68,52 80,68" fill="#ffb6c1"/>
+    <polygon points="120,68 132,52 138,68" fill="#ffb6c1"/>
+
+    <ellipse cx="78" cy="92" rx="11" ry="13" fill="#fff"/>
+    <ellipse cx="122" cy="92" rx="11" ry="13" fill="#fff"/>
+    <ellipse cx="78" cy="94" rx="9" ry="11" fill="#5fc7ff"/>
+    <ellipse cx="122" cy="94" rx="9" ry="11" fill="#5fc7ff"/>
+
+    <g id="pupils">
+      <ellipse cx="78" cy="94" rx="3.5" ry="9" fill="#000"/>
+      <ellipse cx="122" cy="94" rx="3.5" ry="9" fill="#000"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1; 1.6 1.05; 1 1; 1 1; 1 0.05; 1 1"
+        keyTimes="0; 0.3; 0.55; 0.78; 0.81; 0.84"
+        dur="4.5s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.4 0 1 1; 0 0 0.6 1"
+        additive="sum"/>
+    </g>
+
+    <circle cx="75" cy="89" r="2.5" fill="#fff"/>
+    <circle cx="119" cy="89" r="2.5" fill="#fff"/>
+    <circle cx="81" cy="98" r="1.2" fill="#fff" opacity="0.7"/>
+    <circle cx="125" cy="98" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <path d="M100,114 L104,119 L96,119 Z" fill="#ff8899"/>
+    <path d="M100,119 Q92,128 85,122 M100,119 Q108,128 115,122"
+          stroke="#5a3a1a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <g stroke="#444" stroke-width="0.9">
+      <line x1="62" y1="115" x2="38" y2="111"/>
+      <line x1="62" y1="120" x2="38" y2="124"/>
+      <line x1="138" y1="115" x2="162" y2="111"/>
+      <line x1="138" y1="120" x2="162" y2="124"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220"
+     role="img" aria-label="Calico cat curled in a circle viewed from above, sleeping">
+  <title>Curled sleeping cat (top-down)</title>
+  <desc>A calico cat seen from above, curled in a sleeping circle. Its body breathes gently and a Z floats up.</desc>
+
+  <g id="cat">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 -1.5; 0 0" dur="4s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    <animateTransform attributeName="transform" type="scale"
+      values="1 1; 1.012 1.02; 1 1" dur="4s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      additive="sum"/>
+
+    <circle cx="110" cy="110" r="85" fill="#fff5e0"/>
+    <path d="M30,110 Q50,40 130,40 Q200,55 195,130 Q165,90 110,95 Q70,100 30,110 Z" fill="#3a2a1a"/>
+    <path d="M195,130 Q200,170 145,195 Q90,200 50,170 Q70,140 110,135 Q160,130 195,130 Z" fill="#e08040"/>
+    <path d="M50,170 Q40,140 30,110 Q40,130 50,170 Z" fill="#e08040"/>
+
+    <path d="M55,110 Q40,90 50,75" stroke="#fff5e0" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <polygon points="42,80 35,55 55,68" fill="#fff5e0"/>
+    <polygon points="55,68 60,50 70,72" fill="#fff5e0"/>
+    <polygon points="42,80 35,55 50,67" fill="#3a2a1a"/>
+    <polygon points="56,68 60,50 65,68" fill="#e08040"/>
+    <polygon points="46,72 42,62 53,71" fill="#ffb6c1"/>
+    <polygon points="58,67 62,57 67,68" fill="#ffb6c1"/>
+
+    <path d="M50,108 Q56,111 62,108" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M48,118 L52,121 L44,121 Z" fill="#ff8888"/>
+
+    <line x1="38" y1="119" x2="22" y2="115" stroke="#444" stroke-width="0.7"/>
+    <line x1="38" y1="123" x2="22" y2="127" stroke="#444" stroke-width="0.7"/>
+
+    <g id="tail-tip">
+      <path d="M195,130 Q210,180 175,195 Q160,180 175,170 Q190,160 195,130 Z" fill="#e08040"/>
+      <path d="M195,130 Q210,180 175,195" stroke="#3a2a1a" stroke-width="2" fill="none" stroke-dasharray="3 5" opacity="0.4"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="-2 195 130; 4 195 130; -2 195 130"
+        dur="3.2s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </g>
+  </g>
+
+  <g font-family="Georgia, serif" font-weight="bold" fill="#888" pointer-events="none">
+    <text x="170" y="55" font-size="20" opacity="0">Z
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1"
+               dur="3.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 5 -25; 12 -55" dur="3.5s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </text>
+    <text x="190" y="42" font-size="14" opacity="0">z
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.55;0.85;1"
+               dur="3.5s" begin="1.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 6 -20; 14 -45" dur="3.5s" begin="1.4s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </text>
+  </g>
+</svg>

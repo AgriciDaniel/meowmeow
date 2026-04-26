@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="240" height="200"
+     role="img" aria-label="Gray cat peeking over a wooden fence with darting eyes">
+  <title>Peeking cat</title>
+  <desc>A gray cat peers over a wooden fence, its pupils darting left and right while it occasionally blinks.</desc>
+
+  <ellipse cx="120" cy="120" rx="50" ry="45" fill="#8a8a8a"/>
+
+  <g id="left-ear">
+    <polygon points="76,100 80,60 108,95" fill="#8a8a8a"/>
+    <polygon points="84,95 88,72 100,95" fill="#ffb6c1"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 92 80; 0 92 80; -6 92 80; 0 92 80"
+      keyTimes="0; 0.7; 0.76; 0.84"
+      dur="5s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.4 0 0.6 1; 0.4 0 0.6 1"/>
+  </g>
+  <polygon points="132,95 160,60 164,100" fill="#8a8a8a"/>
+  <polygon points="140,95 152,72 156,95" fill="#ffb6c1"/>
+
+  <ellipse cx="100" cy="118" rx="9" ry="11" fill="#fff"/>
+  <ellipse cx="140" cy="118" rx="9" ry="11" fill="#fff"/>
+
+  <g id="eyes">
+    <ellipse cx="100" cy="120" rx="6" ry="8" fill="#3a8c3a"/>
+    <ellipse cx="140" cy="120" rx="6" ry="8" fill="#3a8c3a"/>
+
+    <g id="pupils">
+      <ellipse cx="100" cy="120" rx="2.2" ry="7" fill="#000"/>
+      <ellipse cx="140" cy="120" rx="2.2" ry="7" fill="#000"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -3.5 0; -3.5 0; 3.5 0; 3.5 0; 0 0"
+        keyTimes="0; 0.15; 0.4; 0.55; 0.8; 1"
+        dur="3.6s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </g>
+
+    <circle cx="98" cy="116" r="2" fill="#fff"/>
+    <circle cx="138" cy="116" r="2" fill="#fff"/>
+
+    <animateTransform attributeName="transform" type="scale"
+      values="1 1; 1 1; 1 0.05; 1 1"
+      keyTimes="0; 0.92; 0.95; 0.98"
+      dur="3.6s" repeatCount="indefinite"
+      additive="sum"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 0; 0 115; 0 0"
+      keyTimes="0; 0.92; 0.95; 0.98"
+      dur="3.6s" repeatCount="indefinite"
+      additive="sum"/>
+  </g>
+
+  <path d="M120,138 L124,143 L116,143 Z" fill="#ff8899"/>
+  <path d="M120,143 Q113,150 107,145 M120,143 Q127,150 133,145"
+        stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <g stroke="#444" stroke-width="0.8">
+    <line x1="84" y1="135" x2="60" y2="132"/>
+    <line x1="84" y1="140" x2="60" y2="144"/>
+    <line x1="156" y1="135" x2="180" y2="132"/>
+    <line x1="156" y1="140" x2="180" y2="144"/>
+  </g>
+
+  <rect x="0" y="160" width="240" height="40" fill="#a07050"/>
+  <rect x="0" y="160" width="240" height="6" fill="#7a4a30"/>
+  <g stroke="#7a4a30" stroke-width="1.5">
+    <line x1="40" y1="166" x2="40" y2="200"/>
+    <line x1="100" y1="166" x2="100" y2="200"/>
+    <line x1="160" y1="166" x2="160" y2="200"/>
+    <line x1="220" y1="166" x2="220" y2="200"/>
+  </g>
+
+  <g id="left-paw">
+    <ellipse cx="92" cy="160" rx="11" ry="6" fill="#8a8a8a"/>
+    <circle cx="86" cy="158" r="2" fill="#5a5a5a"/>
+    <circle cx="92" cy="156" r="2" fill="#5a5a5a"/>
+    <circle cx="98" cy="158" r="2" fill="#5a5a5a"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 0 0; 0 -3; 0 0; 0 0"
+      keyTimes="0; 0.6; 0.7; 0.8; 1"
+      dur="4.2s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.42 0 0.58 1"/>
+  </g>
+
+  <ellipse cx="148" cy="160" rx="11" ry="6" fill="#8a8a8a"/>
+  <g fill="#5a5a5a">
+    <circle cx="142" cy="158" r="2"/>
+    <circle cx="148" cy="156" r="2"/>
+    <circle cx="154" cy="158" r="2"/>
+  </g>
+</svg>

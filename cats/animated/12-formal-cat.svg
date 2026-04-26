@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240"
+     role="img" aria-label="Russian blue cat sitting formally with swishing tail">
+  <title>Formal sitting cat</title>
+  <desc>A russian blue cat sits upright, tail swishing rhythmically, occasionally blinking.</desc>
+
+  <g id="tail">
+    <path d="M155,200 Q190,180 180,140 Q170,120 155,135"
+          stroke="#7a8a9a" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-10 158 200; 18 158 200; -10 158 200"
+      dur="2.8s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+  </g>
+
+  <path d="M55,210 Q50,140 100,135 Q150,140 145,210 Q145,220 135,220 L65,220 Q55,220 55,210 Z" fill="#7a8a9a"/>
+
+  <ellipse cx="75" cy="215" rx="14" ry="6" fill="#5a6a7a"/>
+  <ellipse cx="125" cy="215" rx="14" ry="6" fill="#5a6a7a"/>
+
+  <g id="head">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-1 100 130; 1 100 130; -1 100 130"
+      dur="5.6s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+    <ellipse cx="100" cy="100" rx="44" ry="40" fill="#7a8a9a"/>
+
+    <g id="left-ear">
+      <polygon points="60,80 64,42 90,75" fill="#7a8a9a"/>
+      <polygon points="68,76 72,58 84,76" fill="#ffc4d4"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 75 65; 0 75 65; -8 75 65; 2 75 65; 0 75 65"
+        keyTimes="0; 0.6; 0.66; 0.74; 0.82"
+        dur="4.8s" repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.42 0 0.58 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.42 0 0.58 1"/>
+    </g>
+    <polygon points="110,75 136,42 140,80" fill="#7a8a9a"/>
+    <polygon points="116,76 128,58 132,76" fill="#ffc4d4"/>
+
+    <ellipse cx="83" cy="100" rx="7" ry="9" fill="#fff"/>
+    <ellipse cx="117" cy="100" rx="7" ry="9" fill="#fff"/>
+
+    <g id="eyes">
+      <ellipse cx="83" cy="100" rx="4.5" ry="7" fill="#5fc77f"/>
+      <ellipse cx="117" cy="100" rx="4.5" ry="7" fill="#5fc77f"/>
+      <ellipse cx="83" cy="100" rx="1.8" ry="6" fill="#000"/>
+      <ellipse cx="117" cy="100" rx="1.8" ry="6" fill="#000"/>
+      <circle cx="81" cy="97" r="1.6" fill="#fff"/>
+      <circle cx="115" cy="97" r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="scale"
+        values="1 1; 1 1; 1 0.05; 1 1"
+        keyTimes="0; 0.45; 0.48; 0.51"
+        dur="5.6s" repeatCount="indefinite"
+        additive="sum"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 0 0; 0 95; 0 0"
+        keyTimes="0; 0.45; 0.48; 0.51"
+        dur="5.6s" repeatCount="indefinite"
+        additive="sum"/>
+    </g>
+
+    <path d="M100,116 L104,121 L96,121 Z" fill="#ff8899"/>
+    <path d="M100,121 Q92,130 86,124 M100,121 Q108,130 114,124"
+          stroke="#333" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+    <g stroke="#3a4a5a" stroke-width="0.8">
+      <line x1="65" y1="116" x2="38" y2="112"/>
+      <line x1="65" y1="121" x2="38" y2="124"/>
+      <line x1="135" y1="116" x2="162" y2="112"/>
+      <line x1="135" y1="121" x2="162" y2="124"/>
+    </g>
+  </g>
+</svg>

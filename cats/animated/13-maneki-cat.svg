@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240"
+     role="img" aria-label="Lucky maneki-neko cat with rhythmically waving paw">
+  <title>Maneki-neko (lucky cat)</title>
+  <desc>White Japanese lucky cat waves its raised paw rhythmically beside a glowing gold koban coin.</desc>
+
+  <path d="M55,215 Q50,140 100,130 Q150,140 145,215 Q145,225 135,225 L65,225 Q55,225 55,215 Z" fill="#fafafa"/>
+
+  <g id="koban">
+    <path d="M58,168 Q100,180 142,168 Q140,210 100,215 Q60,210 58,168 Z" fill="#f0d050"/>
+    <ellipse cx="100" cy="180" rx="12" ry="6" fill="#d4a020"/>
+    <animate attributeName="opacity" values="1; 0.85; 1" dur="2.4s" repeatCount="indefinite"
+      calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+  </g>
+
+  <ellipse cx="78" cy="220" rx="14" ry="7" fill="#fafafa"/>
+  <ellipse cx="122" cy="220" rx="14" ry="7" fill="#fafafa"/>
+  <g fill="#ffc0c0">
+    <circle cx="74" cy="221" r="2"/>
+    <circle cx="78" cy="218" r="2"/>
+    <circle cx="82" cy="221" r="2"/>
+  </g>
+
+  <ellipse cx="60" cy="160" rx="11" ry="20" fill="#fafafa"/>
+  <ellipse cx="60" cy="172" rx="9" ry="6" fill="#fafafa"/>
+
+  <g id="waving-paw">
+    <g transform="translate(140 95)">
+      <ellipse cx="0" cy="55" rx="11" ry="20" fill="#fafafa"/>
+      <circle cx="0" cy="35" r="13" fill="#fafafa"/>
+      <circle cx="-3" cy="38" r="2.5" fill="#ffc0c0"/>
+      <circle cx="0" cy="34" r="2.5" fill="#ffc0c0"/>
+      <circle cx="4" cy="38" r="2.5" fill="#ffc0c0"/>
+    </g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="-22 140 130; 8 140 130; -22 140 130"
+      dur="1.2s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+  </g>
+
+  <g id="head">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-1 100 100; 1 100 100; -1 100 100"
+      dur="2.4s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+    <ellipse cx="100" cy="95" rx="48" ry="44" fill="#fafafa"/>
+    <polygon points="56,73 60,35 88,68" fill="#fafafa"/>
+    <polygon points="112,68 140,35 144,73" fill="#fafafa"/>
+    <polygon points="64,69 70,50 84,69" fill="#ffb6c1"/>
+    <polygon points="116,69 130,50 136,69" fill="#ffb6c1"/>
+
+    <g id="eyes">
+      <path d="M75,95 Q70,87 82,86" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M125,95 Q130,87 118,86" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <animate attributeName="opacity"
+        values="1; 1; 0.2; 1"
+        keyTimes="0; 0.55; 0.58; 0.62"
+        dur="4.5s" repeatCount="indefinite"/>
+    </g>
+
+    <circle cx="75" cy="108" r="6" fill="#ffb6c1" opacity="0.6"/>
+    <circle cx="125" cy="108" r="6" fill="#ffb6c1" opacity="0.6"/>
+
+    <path d="M100,108 L103,112 L97,112 Z" fill="#ff7799"/>
+    <path d="M100,113 Q93,121 87,116 M100,113 Q107,121 113,116"
+          stroke="#000" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <rect x="80" y="143" width="40" height="9" rx="3" fill="#d4202a"/>
+    <circle cx="100" cy="153" r="6" fill="#f0d050"/>
+    <circle cx="100" cy="153" r="3" fill="#d4a020"/>
+  </g>
+</svg>
