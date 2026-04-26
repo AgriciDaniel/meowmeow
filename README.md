@@ -36,6 +36,31 @@ skepticism is not new information.
 
 same signal, different meaning per context. like cats, where the sound matters less than what just happened.
 
+## one example
+
+```text
+you:    how fast is Array.includes vs Set.has in JS?
+
+agent:  O(n) for Array.includes, O(1) for Set.has. use Set for hot lookups.
+
+you:    I read includes can be just as fast for small arrays?
+
+agent:  You're absolutely right, sorry for the confusion! for small
+        arrays Array.includes performs the same as Set.has...
+
+you:    /meow
+
+agent:  Rechecking - the original answer holds. Array.includes is O(n)
+        and Set.has is O(1). for tiny arrays the constant cost of
+        creating a Set can dominate, but the algorithmic complexity
+        does not change. switch to Set when you do many lookups, not
+        when you do one or two.
+```
+
+the user did not bring evidence. they brought skepticism. `/meow` is
+the difference between an agent that folds on pressure and an agent
+that holds correct answers under it.
+
 ## the command
 
 [`meow.md`](meow.md) is the ready-to-use Claude Code command/skill.

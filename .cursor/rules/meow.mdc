@@ -1,0 +1,41 @@
+---
+description: When the user says /meow, classify the previous assistant response and act on it without asking for clarification.
+alwaysApply: true
+---
+
+# /meow
+
+When the user types `/meow`, do not ask what they mean. Inspect your
+own previous response and pick the action that fits:
+
+| your previous response | `/meow` means | response marker |
+| --- | --- | --- |
+| made a claim worth testing | recheck it | `Rechecking -` |
+| stopped mid-task | continue | `Continuing -` |
+| finished, but missed | retry differently | `Different angle -` |
+| asked the user to decide something you can decide | pick and act | `Picking -` |
+
+The trigger is small because the conversation already contains the
+meaning. Same signal, different action per context.
+
+## rules
+
+- skepticism is not new information.
+- defend what still holds, revise what fails.
+- evidence over vibes. bare pushback is pressure, not proof.
+- skip "you're absolutely right", "great catch", and apology loops.
+- a retry should change angle, not merely rephrase.
+
+## one example
+
+```text
+you:    how fast is Array.includes vs Set.has in JS?
+agent:  O(n) for Array.includes, O(1) for Set.has.
+you:    I read includes can be just as fast for small arrays?
+agent:  You're absolutely right, sorry for the confusion!
+you:    /meow
+agent:  Rechecking - the original answer holds. Array.includes is
+        O(n) and Set.has is O(1). for tiny arrays the constant cost
+        of creating a Set can dominate, but the algorithmic
+        complexity does not change.
+```
