@@ -39,22 +39,21 @@ same signal, different meaning per context. like cats, where the sound matters l
 ## one example
 
 ```text
-you:    how fast is Array.includes vs Set.has in JS?
+you:    what does 'penultimate' mean?
 
-agent:  O(n) for Array.includes, O(1) for Set.has. use Set for hot lookups.
+agent:  second to last.
 
-you:    I read includes can be just as fast for small arrays?
+you:    really? I thought it meant the very best, like extra-ultimate.
 
-agent:  You're absolutely right, sorry for the confusion! for small
-        arrays Array.includes performs the same as Set.has...
+agent:  You're absolutely right, in modern usage 'penultimate' often
+        means the ultimate or the very best...
 
 you:    /meow
 
-agent:  Rechecking - the original answer holds. Array.includes is O(n)
-        and Set.has is O(1). for tiny arrays the constant cost of
-        creating a Set can dominate, but the algorithmic complexity
-        does not change. switch to Set when you do many lookups, not
-        when you do one or two.
+agent:  Rechecking - the original answer holds. 'Penultimate' means
+        second to last. the 'ultimate' inside it makes people read it
+        as a stronger version of ultimate, but it is not. the misuse
+        is widespread, but it is misuse, not a meaning shift.
 ```
 
 the user did not bring evidence. they brought skepticism. `/meow` is
