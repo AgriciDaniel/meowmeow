@@ -139,10 +139,6 @@ if you port it, tighten it, or catch a misclassification, open an issue or PR.
   <img src="cats/animated/15-curled-cat.svg" alt="calico cat curled up sleeping, viewed from above" width="170">
 </p>
 
-## credits
-
-pixel-art style inspired by [Gowee/nyancat-svg](https://github.com/Gowee/nyancat-svg).
-
 ## research links
 
 - [Anthropic: Towards Understanding Sycophancy in Language Models](https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models)
